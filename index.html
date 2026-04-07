@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    
+    <style>
+        body {
+            background-color: #562717;
+        }
+
+        .disco {
+            background-color: #C21717;
+            color: white;
+            border-radius: 15px;
+        }
+
+        .contemporary {
+            background-color: #FEA712;
+            color: black;
+            border-radius: 15px;
+        }
+
+        /* NAVBAR CUSTOM */
+        .navbar {
+            background-color: #3b2a1a !important;
+        }
+
+        .navbar .nav-link,
+        .navbar .navbar-brand {
+            color: #FDDCA9 !important;
+        }
+
+        .navbar .nav-link:hover {
+            color: #FEA712 !important;
+        }
+
+        .btn-outline-light {
+            color: #FDDCA9;
+            border-color: #FDDCA9;
+        }
+
+        .btn-outline-light:hover {
+            background-color: #FEA712;
+            color: black;
+            border-color: #FEA712;
+        }
+    </style>
+
+</head>
+
+<body>
+   
+<!--------NAVBAR----------->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link active" href="carrosel.html">In art</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+          </ul>
+        </li>
+
+      </ul>
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+
+    </div>
+  </div>
+</nav>
+    
+<h1 class="text-center text-white mt-3">
+  This Music May Contain Hope 
+  <i class="bi bi-music-note-beamed"></i>
+</h1>
+
+<!-- CONTAINERS -->
+<div class="container mt-4">
+  <div class="row">
+
+    <div class="col-md-6">
+      <div class="disco p-3">
+        <img src="Img/disco.jpg" class="img-fluid mb-2" alt="">
+        <h2>Disco music</h2>
+        <p>Disco music emerged in the 1970s as a vibrant and energetic genre that quickly became a cultural phenomenon. Characterized by its steady four-on-the-floor beat, catchy basslines, and rich orchestral arrangements, disco was designed to keep people dancing all night long. Originating in nightclubs, especially within marginalized communities, it became a symbol of freedom, expression, and unity. 
+          
+            Artists like Donna Summer, the Bee Gees, and Gloria Gaynor helped bring disco into the mainstream, turning it into a global sensation.
+      </div>
+    </div>
+
+</br>
+
+    <div class="col-md-6">
+      <div class="contemporary p-3">
+        <img src="Img/classic.jpg.jpg" class="img-fluid mb-2" alt="">
+        <h2>Contemporary music</h2>
+        <p>Contemporary music refers to modern musical styles that reflect the sounds, technologies, and cultural influences of today’s world.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- CARDS -->
+<div class="container mt-5">
+  <h2 class="text-white mb-4 text-center">Explorar Épocas</h2>
+  <div class="row g-4"> <div class="col-md-4">
+      <div class="card h-100 disco border-0 shadow-lg">
+        <img src="Img/retro.jpg" class="card-img-top p-2" alt="Disco Music" style="border-radius: 20px;">
+        <div class="card-body text-center">
+          <h5 class="card-title fw-bold">Era de Ouro</h5>
+          <p class="card-text">Sinta a energia das pistas dos anos 70 com os maiores hits da Disco Music.</p>
+          <a href="https://open.spotify.com/playlist/2vGa9CL03fn7741MCbVhgd" class="btn btn-outline-light rounded-pill">Ver Playlist</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 contemporary border-0 shadow-lg">
+        <img src="Img/contemporanea.jpg" class="card-img-top p-2" alt="Modern Music" style="border-radius: 20px;">
+        <div class="card-body text-center">
+          <h5 class="card-title fw-bold">Batidas Atuais</h5>
+          <p class="card-text">O que há de novo no cenário pop e eletrônico mundial hoje.</p>
+          <a href="https://open.spotify.com/track/68lbSrXDORS51pmyjZv712" class="btn btn-outline-dark rounded-pill">Ouvir Agora</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 border-0 shadow-lg" style="background-color: #3b2a1a; color: #FDDCA9;">
+        <img src="Img/vinil.jpg" class="card-img-top p-2" alt="Vinyl" style="border-radius: 20px;">
+        <div class="card-body text-center">
+          <h5 class="card-title fw-bold">Coleção Vinil</h5>
+          <p class="card-text">A experiência única do som analógico que nunca sai de moda.</p>
+          <a href="https://taiobadiscos.com.br/blogs/o-mundo-dos-discos-de-vinil/tudo-sobre-discos-de-vinil-por-que-o-vinil-continua-conquistando-amantes-da-musica?srsltid=AfmBOop9uJV2LumNrVs83WgQWJ9PCqQONsVdKZ3hbgwl1XiMIltDfYcJ" class="btn btn-outline-warning rounded-pill">Saiba Mais</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  <!--ACCORDION-->
+
+  </div> <div class="row mt-5 mb-5">
+    <div class="col-12">
+      <h3 class="text-white mb-3 text-center">Saiba Mais sobre os Gêneros</h3>
+      <div class="accordion" id="accordionMusica">
+        
+        <div class="accordion-item bg-dark text-white border-secondary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+              Curiosidades sobre a Disco Music
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionMusica">
+            <div class="accordion-body">
+              A Disco Music não era apenas música; era um movimento cultural de liberdade nas pistas de dança dos anos 70!
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item bg-dark text-white border-secondary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+              E a Música Contemporânea?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionMusica">
+            <div class="accordion-body">
+              Ela engloba tudo o que ouvimos hoje, misturando tecnologia digital com instrumentos clássicos.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+</body>
+</html>
